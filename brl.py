@@ -7,7 +7,7 @@ rfcList = list()
 urlList = list()
 titleList = list()
 abstractList = list()
-file = open('rfc.test', 'r')
+file = open('rfc.list', 'r')
 for i in file.readlines():
     btname = "https://datatracker.ietf.org/doc/%s/bibtex/" % (i.strip())
     rfcList.append(i.strip())
